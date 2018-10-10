@@ -1,3 +1,4 @@
+import Math
 //immutable point class:
 public class Point{
   private double x,y;
@@ -15,3 +16,10 @@ public class Point{
   public double getX(){
     return x;
   }
+  
+  public double getY(){
+    return y;
+}
+  public double distanceTo(point){
+    
+    
